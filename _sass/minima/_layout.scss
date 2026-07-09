@@ -1,3 +1,4 @@
+// Overrides _sass/minima/_layout.scss in Minima Theme
 /**
  * Site header
  */
@@ -204,7 +205,7 @@
   
   .post-link {
     display: block;
-    @include relative-font-size(1.5);
+    @include relative-font-size(0.5);
   }
   
   
