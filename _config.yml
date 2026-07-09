@@ -60,5 +60,5 @@ plugins:
 #   - vendor/ruby/
 
 collections:
-  -sql
+  - sql
 
