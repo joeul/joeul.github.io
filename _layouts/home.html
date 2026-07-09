@@ -18,12 +18,12 @@ layout: default
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         
         <div class="post-container">
-            <h3 style="background-color: pink;">
-                <a style="background-color: orange;", class="post-link" href="{{ post.url | relative_url }}">
+            <h3>
+                <a class="post-link" href="{{ post.url | relative_url }}">
                     {{ post.title | escape }}
                 </a>
             </h3>
-            <span style="background-color: orangered;" class="post-meta">{{ post.date | date: date_format }}</span>
+            <span class="post-meta">{{ post.date | date: date_format }}</span>
         </div>
 
         {%- if site.show_excerpts -%}
