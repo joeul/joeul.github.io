@@ -60,5 +60,6 @@ plugins:
 #   - vendor/ruby/
 
 collections:
-  - sql
+  sql:
+    output: true
 
