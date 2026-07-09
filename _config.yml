@@ -58,7 +58,7 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-
+collections_dir: collections
 collections:
   sql:
     output: true
