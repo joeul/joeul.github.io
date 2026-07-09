@@ -207,6 +207,8 @@
     display: block;
     @include relative-font-size(1.15);
     margin-right: $spacing-unit;
+    margin-bottom: 0;
+    padding-bottom: 0;
   }
 
   .post-container {
