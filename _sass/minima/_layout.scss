@@ -201,14 +201,13 @@
   .post-meta {
     font-size: $small-font-size;
     color: $grey-color;
+    padding-bottom: 3px;
   }
   
   .post-link {
     display: block;
     @include relative-font-size(1.15);
     margin-right: $spacing-unit;
-    margin-bottom: 0;
-    padding-bottom: 0;
   }
 
   .post-container {
