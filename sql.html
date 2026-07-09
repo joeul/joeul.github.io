@@ -5,6 +5,37 @@ permalink: /sql.html
 ---
 
 <div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+  {%- if site.sql.size > 0 -%}
+    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+    <ul class="post-list">
+      {%- for sql in site.sql -%}
+      <li>
+        
+        <div class="post-container">
+            <h3>
+                <a class="post-link" href="{{ sql.url | relative_url }}">
+                    {{ sql.title | escape }}
+                </a>
+            </h3>
+            <span class="post-meta">{{ sql.lesson | escape }}</span>
+        </div>
+
+      </li>
+      {%- endfor -%}
+    </ul>
+
+  {%- endif -%}
+
+</div>
+
+<!--
+<div class="home">
   {% for sql in site.sql %}
     <h2>
       <a href="{{ sql.url }}">
@@ -14,3 +45,4 @@ permalink: /sql.html
     <p>{{ sql.content | markdownify }}</p>
   {% endfor %}
 </div>
+-->
