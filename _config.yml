@@ -22,10 +22,11 @@ title: Joe Ulepic
 email: ""
 author: ""
 description: >- # this means to ignore newlines until "baseurl:"
-  Software Engineering, Data Science, AI
+  Software Engineering, Data Science & AI
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 timezone: America/New_York
+show_drafts: true
 
 # Socials
 github_username: joeul
