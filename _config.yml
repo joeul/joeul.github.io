@@ -62,4 +62,5 @@ plugins:
 collections:
   sql:
     output: true
+    sort_by: lesson 
 
