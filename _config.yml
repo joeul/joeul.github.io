@@ -21,12 +21,12 @@
 title: Joe Ulepic
 # email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  A consolidation of the things I am reading and learning. My aim is to be valuable to software engineers, data scientists, and market particpants.
+  Software Engineering, Data Science, AI
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Socials
-github_username:  joeul
+github_username: joeul
 linkedin_username: joe-ulepic-08a174147
 linkedin_label: Joe Ulepic
 
