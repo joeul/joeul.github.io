@@ -31,14 +31,16 @@ layout: default
 
   {%- endif -%}
 
-  <ul class="post-list">
-  {% for sql in site.sql %}
-    <h3>
-        <a class="post-link" href="{{ post.url | relative_url }}">
-        {{ sql.title | escape }}
-        </a>
-    </h3>
-  {% endfor %}
-  </ul>
+</div>
 
+<div>
+    <ul class="post-list">
+        {% for sql in site.sql %}
+          <h3>
+              <a class="post-link" href="{{ post.url | relative_url }}">
+              {{ sql.title | escape }}
+              </a>
+          </h3>
+        {% endfor %}
+        </ul>
 </div>
