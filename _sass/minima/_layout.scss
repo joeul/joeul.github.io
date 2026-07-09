@@ -206,10 +206,12 @@
   .post-link {
     display: block;
     @include relative-font-size(1.0);
+    margin-right: 20px;
   }
 
   .post-container {
     display: flex;
+    align-items: flex-end;
   }
   
   
