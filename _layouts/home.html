@@ -16,7 +16,7 @@ layout: default
       {%- for post in site.posts -%}
       <li>
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <!--<span class="post-meta">{{ post.date | date: date_format }}</span>-->
+        
         <div class="post-container">
             <h3>
                 <a class="post-link" href="{{ post.url | relative_url }}">
@@ -35,6 +35,7 @@ layout: default
 
   {%- endif -%}
 
+
   {% for sql in site.sql %}
     <h2>
       <a href="{{ sql.url }}">
@@ -43,5 +44,11 @@ layout: default
     </h2>
     <p>{{ sql.content | markdownify }}</p>
   {% endfor %}
+
+  <ul>
+    {% for collection in site.collections %}
+      <li>{{ collection.label }}</li>
+    {% endfor %}
+  </ul>
 
 </div>
