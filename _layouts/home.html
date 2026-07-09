@@ -36,15 +36,7 @@ layout: default
   {%- endif -%}
 
 
-  {% for sql in site.sql %}
-    <h2>
-      <a href="{{ sql.url }}">
-        {{ sql.title }}
-      </a>
-    </h2>
-    <p>{{ sql.content | markdownify }}</p>
-  {% endfor %}
-
+  {%- if site.collections.size > 0 -%}
   <ul>
     {% for collection in site.collections %}
       <li>{{ collection.label }}</li>

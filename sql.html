@@ -1,0 +1,15 @@
+---
+layout: page
+title: SQL
+permalink: /sql/
+---
+
+
+{% for sql in site.sql %}
+  <h2>
+    <a href="{{ sql.url }}">
+      {{ sql.title }}
+    </a>
+  </h2>
+  <p>{{ sql.content | markdownify }}</p>
+{% endfor %}
