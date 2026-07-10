@@ -58,9 +58,13 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
 collections_dir: collections
 collections:
   sql:
     output: true
     sort_by: lesson 
+  linear_algebra:
+    output: true
+    sort_by: lesson
 

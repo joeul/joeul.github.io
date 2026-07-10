@@ -10,4 +10,5 @@ I am a software engineer whose interests span the fields of programming and data
 
 Everything Else: Subject notes and examples, time independent.   
 
+
 Feedback, suggestions, or other outreach? Please see my Linkedin below.
