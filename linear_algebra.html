@@ -1,0 +1,29 @@
+---
+layout: default
+title: Linear Algebra
+permalink: /linear_algebra.html
+---
+
+<div class="home">
+  {%- if site.linear_algebra.size > 0 -%}
+    <h2 class="post-list-heading">{{ page.title | default: "" }}</h2>
+    <ul class="post-list">
+      {%- for linear_algebra in site.linear_algebra -%}
+      <li>
+        
+        <div class="post-container">
+            <h3>
+                <a class="post-link" href="{{ sql.url | relative_url }}">
+                    {{ linear_algebra.title | escape }}
+                </a>
+            </h3>
+            <span class="post-meta">{{ linear_algebra.lesson | escape }}</span>
+        </div>
+
+      </li>
+      {%- endfor -%}
+    </ul>
+
+  {%- endif -%}
+
+</div>
